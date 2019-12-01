@@ -14,7 +14,7 @@
     - 
       ignore_errors: true
       name: "remove docker images"
-      shell: "docker image rm -f dab8106/webmagic_demo"
+      shell: "docker image rm -f navinjk/webmagic_demo"
     - 
       name: "create docker image"
-      shell: "docker run -d --name webmagic_demo -p 8090:8080 dab8106/webmagic_demo"
+      shell: "docker run -d --name webmagic_demo -p 8090:8080 navinjk/webmagic_demo"
